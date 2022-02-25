@@ -11,6 +11,10 @@ import javax.swing.Timer;
 
 public class Model extends JPanel implements ActionListener {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Dimension d;
     private final Font smallFont = new Font("Arial", Font.BOLD, 14);
     private boolean inGame = false;
@@ -69,12 +73,12 @@ public class Model extends JPanel implements ActionListener {
     
     
     private void loadImages() {
-    	down = new ImageIcon("/src/images/down.gif").getImage();
-    	up = new ImageIcon("/src/images/up.gif").getImage();
-    	left = new ImageIcon("/src/images/left.gif").getImage();
-    	right = new ImageIcon("/src/images/right.gif").getImage();
-        ghost = new ImageIcon("/src/images/ghost.gif").getImage();
-        heart = new ImageIcon("/src/images/heart.png").getImage();
+    	down = new ImageIcon("src/images/down.gif").getImage();
+    	up = new ImageIcon("src/images/up.gif").getImage();
+    	left = new ImageIcon("src/images/left.gif").getImage();
+    	right = new ImageIcon("src/images/right.gif").getImage();
+        ghost = new ImageIcon("src/images/ghost.gif").getImage();
+        heart = new ImageIcon("src/images/heart.png").getImage();
 
     }
        private void initVariables() {
