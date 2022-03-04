@@ -4,6 +4,8 @@ import javax.swing.JFrame;
 
 public class Pacman extends JFrame{
 
+	//MOD 1
+	
 	/**
 	 * 
 	 */
